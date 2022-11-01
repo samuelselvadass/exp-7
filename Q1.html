@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Q1.css">
+</head>
+<body>
+
+    <nav class="container text-center flex center"><h1>Budget Calculator App</h1></nav>
+    <div class="container flex center flex-col ">
+        <div class="py-1">Enter the amount you want to Manage</div>
+        <input type="number" name="" id="amount">
+        <div class="py-1">How would you like to spend your money?</div>
+        <form class=" flex flex-row py-3">
+            <p class="px-1">Room Rent(%)</p>
+            <input type="number" name="" id="inRoomRent">
+            <p class="px-1">Accessories(%)</p>
+            <input type="number" name="" id="inAccessories">
+            <p class="px-1">Emergency(%)</p>
+            <input type="number" name="" id="inEmergency">
+            <p class="px-1">Saving(%)</p>
+            <input type="number" name="" id="inSaving">
+        </form>
+        <button id="trigger" class="px-1 py-2 text-white" style="background-color: darkblue ;">Evaluate My money</button>
+        <div class="flex py-3" style="width: 75%; justify-content: space-between;">
+            <button class="text-white px-1 py-2" style="background-color:blue ;">
+                Room rent 
+                <p id="roomRent">Rs.0</p>
+            </button>
+            <button class="text-white px-1 py-2" style="background-color:blue ;">
+                Accessories 
+                <p id="accessories">Rs.0</p>
+            </button>
+            <button class="text-white px-1 py-2" style="background-color:blue ;">
+                Emergency
+                <p id="emergency">Rs.0</p>
+            </button>
+            <button class="text-white px-1 py-2" style="background-color:blue ;">
+                Saving <br> 
+                <p id="saving">Rs.0</p>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="Q1.js"></script>
+
+
+
+</html>

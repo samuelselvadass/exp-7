@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.15rem;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+
+}
+
+
+nav{
+    background: black;
+    color: white;
+    height: 80px;
+}
+.py-1
+{
+    padding: 1rem 0;
+}
+.py-2
+{
+    padding: 2rem 0;
+}
+.py-3
+{
+    padding: 3rem 0;
+}
+
+.px-1
+{
+    padding: 0 1rem;
+}
+.text-white{
+    color: white;
+}
